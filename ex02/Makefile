@@ -1,9 +1,9 @@
-SRC = main.cpp RPN.cpp
+SRC = main.cpp PmergeMe.cpp
 OBJ = $(SRC:.cpp=.o)
 CC = g++
 FLAGS = -Wall -Werror -Wextra -std=c++98
 
-NAME = RPN
+NAME = PmergeMe
 
 all: $(NAME)
 
